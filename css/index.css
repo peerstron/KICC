@@ -1,0 +1,73 @@
+body {
+    /* position: absolute; */
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* padding: 0 20px 0 20px; */   
+    /* background: red; */
+}
+
+#imageLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#textHeader {
+  /* left: 3px */
+}
+
+#bodyPage{
+  /* position: relative; */
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+/*  Menu items */
+.nav {
+  width: 990px;
+  height: 43.5px;
+  margin-top: 11px;
+  background-color: #070d66fb;
+}
+
+.nav a {
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 26px;
+  margin-top: 1px;
+  font-size: 15px;
+  transition: 0.6s all;
+}
+
+.nav a:hover {
+  background-color: rgba(206, 176, 78, 0.966);
+}
+
+.nav .search {
+  float: right;
+}
+
+.nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  border: none;
+  
+}.nav .search button {
+  float: right;
+  margin-top: 8px;
+  margin-right: 6px;
+  font-weight: bold;
+  padding: 6px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
